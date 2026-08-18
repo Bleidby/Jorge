@@ -1,10 +1,16 @@
+@font-face {
+            font-family: Cynosure Straight;
+            src: url('Fontes/cynosure/Cynosure\ Straight.otf');
+        }
+
 body{
+    
     background-image: url(imagens/wings.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-   font-family: Cynosure Straight;
+    font-family: Cynosure Straight;
 }
 
 nav ul{
@@ -27,19 +33,7 @@ nav li a:hover{
     background-color: #a34900;
 }
 
-.titulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.titulo img{
-    max-width: 400px;
-    width: 100%;
-    height: auto;
-}
-
 nav{
     border-bottom: 2px solid #4d2301 ;
 }
+
